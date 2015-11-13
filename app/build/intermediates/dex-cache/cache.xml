@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\studio\06\ITLanBaoProject\build\intermediates\exploded-aar\06\ITLanBaoBaseLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="746461bf601ee78ff2103d12d57455623a4df699">
+        <dex dex="F:\studio\06\ITLanBaoProject\build\intermediates\pre-dexed\debug\classes-fbc625e63f0bbae63e57fe0c358ffa6788047aaa.jar" />
+    </item>
+    <item
+        jar="F:\studio\06\ITLanBaoProject\build\intermediates\exploded-aar\06\ITLanBaoBaseLib\unspecified\jars\libs\volley_source.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="473497ec57ea15fa2ca8604378d4c7de73a2c91f">
+        <dex dex="F:\studio\06\ITLanBaoProject\build\intermediates\pre-dexed\debug\volley_source-16376e2a7ede6a1de198e5a03d506fff9ae7803e.jar" />
+    </item>
+    <item
+        jar="F:\studio\06\ITLanBaoProject\build\intermediates\exploded-aar\06\ITLanBaoBaseLib\unspecified\jars\libs\universal-image-loader-1.9.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="296dfb44fbf31397c0306e60cb62e06ca40df07f">
+        <dex dex="F:\studio\06\ITLanBaoProject\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.1-74a7fa21df7ed16769760022af1ac7e2bc5eb60d.jar" />
+    </item>
+    <item
+        jar="F:\studio\06\ITLanBaoProject\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a43cf9e271b5bc564e880a0a4be63ab9c69c97f8">
+        <dex dex="F:\studio\06\ITLanBaoProject\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-5f4c1bc56d8dd8af4ac13b22dc52a3bf34e773ce.jar" />
+    </item>
+    <item
+        jar="F:\studio\06\ITLanBaoProject\build\intermediates\exploded-aar\06\ITLanBaoBaseLib\unspecified\jars\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="F:\studio\06\ITLanBaoProject\build\intermediates\pre-dexed\debug\gson-2.2.4-b979ea642f00fd9fbaa508cb147c511d886893f0.jar" />
+    </item>
+    <item
+        jar="F:\studio\06\ITLanBaoProject\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e19387dc3b060af32f5401f84fbe246635256955">
+        <dex dex="F:\studio\06\ITLanBaoProject\build\intermediates\pre-dexed\debug\android-support-v4-13c8e6fa4f5840efdb5c5673a30046437228db7e.jar" />
+    </item>
+
+</items>

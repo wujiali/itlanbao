@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaaaaa"   >
+    
+     <TextView
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="图片裁剪"
+        />
+     <Button 
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:text="确定"
+         android:id="@+id/sure"/>
+
+    <com.itlanbao.util.ClipImageLayout
+        android:id="@+id/id_clipImageLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+       android:layout_below="@+id/title" />
+
+</RelativeLayout>

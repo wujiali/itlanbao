@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/footer_height"
+    android:padding="@dimen/footer_padding" 
+    android:background="@color/pull_listview_header_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout 
+            android:id="@+id/footer_progressbar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:gravity="center" >
+            
+             <ProgressBar
+	            android:layout_width="15dip"
+	            android:layout_height="15dip" />
+             
+              <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="12sp"
+	            android:text="@string/str_loading_default_hint"
+	            android:textColor="@color/pull_listview_text_color" />
+            
+        </LinearLayout>
+       
+
+        <TextView
+            android:id="@+id/footer_hint_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="12sp"
+            android:text="@string/footer_hint_load_normal"
+            android:textColor="@color/pull_listview_text_color" />
+
+        <ImageView
+            android:id="@+id/footer_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@id/footer_hint_text"
+            android:contentDescription="@null"
+            android:src="@drawable/pull_refresh_arrow_up"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/F:/studio/06/ITLanBaoBaseLib/res/layout/pull_refresh_footer.xml -->

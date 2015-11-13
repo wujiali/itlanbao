@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="F:\studio\06\ITLanBaoProject\build\intermediates\exploded-aar\06\ITLanBaoBaseLib\unspecified\assets"/></dataSet><dataSet config="main"><source path="F:\studio\06\ITLanBaoProject\assets"><file name="friendinfo.txt" path="F:\studio\06\ITLanBaoProject\assets\friendinfo.txt"/></source></dataSet><dataSet config="debug"><source path="F:\studio\06\ITLanBaoProject\build-types\debug\assets"/></dataSet></merger>

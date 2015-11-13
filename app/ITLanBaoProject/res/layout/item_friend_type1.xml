@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:descendantFocusability="blocksDescendants"
+    android:background="@color/white"  
+    android:gravity="left">
+
+    <ImageView
+        android:id="@+id/hot_reco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hot_reco"
+        android:visibility="gone"
+        android:layout_marginLeft="5dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+        android:paddingTop="7dp"
+        android:paddingBottom="8dp"
+        android:id="@+id/layout_head">
+
+        <ImageView
+            style="@style/GloamourCircleSize"
+            android:id="@+id/headerId"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/head_default_round"
+            android:layout_marginLeft="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/headerId"
+                android:text="昵称"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/nick"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="0分钟前"
+                android:layout_marginTop="3dp"
+                style="@style/VoteTimeText"
+                android:id="@+id/minutes_bottom"
+                 />
+            </LinearLayout>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/subscribe_btn"
+            android:src="@drawable/follow"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="0分钟前"
+            android:layout_marginRight="10dp"
+            android:id="@+id/minutes_right"
+            style="@style/VoteTimeText"
+            />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <com.itlanbao.picapp.view.ScaleImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@null"
+            android:background="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_alignBottom="@id/photo"
+            android:layout_marginBottom="5dp"
+            android:indeterminate="false"
+            android:max="100"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="bottom"
+            style="@style/ProgressBarStyle" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/multi_img_icon"
+            android:visibility="gone"
+            android:layout_alignRight="@id/photo"
+            android:layout_alignBottom="@id/photo"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="13dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="6"
+            android:textColor="@color/white"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/more_pic"
+            android:background="@drawable/round_vote_item" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="8dp"
+        android:textSize="15sp"
+        android:text="刀塔虽易，成神不易。且行且努力。补刀虽易，对线不易。且行且注意。"
+        android:id="@+id/question_description" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/PicTitleInfoText"
+            android:id="@+id/ding"
+            android:gravity="center_horizontal"
+            android:drawableTop="@drawable/voteitem_ding_img_sel"
+            android:textColor="@drawable/tabitem_txt_sel"
+            android:textSize="15sp"
+            android:text="很赞!" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            style="@style/PicTitleInfoText"
+            android:id="@+id/lovely"
+            android:layout_gravity="center_vertical"
+            android:drawableTop="@drawable/voteitem_lovely_img_sel"
+            android:textColor="@drawable/tabitem_txt_sel"
+            android:textSize="15sp"
+            android:text="可爱!" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/PicTitleInfoText"
+            android:layout_weight="1"
+            android:id="@+id/beauty"
+            android:drawableTop="@drawable/voteitem_beauty_img_sel"
+            android:textColor="@drawable/tabitem_txt_sel"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:text="喜欢!" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/PicTitleInfoText"
+            android:id="@+id/comment"
+            android:drawableTop="@drawable/vote_comment"
+            android:textColor="@drawable/tabitem_txt_sel"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:text="评论" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/PicTitleInfoText"
+            android:id="@+id/more"
+            android:drawableTop="@drawable/more"
+            android:textColor="@drawable/tabitem_txt_sel"
+            android:gravity="center_horizontal"
+            android:textSize="15sp"
+            android:text="更多" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recommend_num"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:text="546个朋友在推荐！"
+        android:textColor="#D15FEE"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/ico_zan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reply_open"
+        android:textSize="15sp"
+        android:textColor="#D15FEE"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="查看所有12条评论"
+        android:drawablePadding="5dp" 
+        android:drawableLeft="@drawable/ico_comment" />
+
+    <LinearLayout
+        android:id="@+id/replyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+       ></LinearLayout>
+
+</LinearLayout>

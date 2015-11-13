@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0" >
+    <com.itlanbao.applib.pullfreshview.PullRefreshListView 
+        android:id="@+id/pull_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:background="#f0f0f0"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" 
+        android:dividerHeight="10dp"
+      />
+    
+    </RelativeLayout><!-- From: file:/F:/studio/06/ITLanBaoProject/res/layout/fragment_home.xml -->

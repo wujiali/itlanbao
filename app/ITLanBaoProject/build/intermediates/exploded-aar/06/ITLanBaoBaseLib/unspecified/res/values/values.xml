@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/studio/06/ITLanBaoBaseLib/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="cf_actionbar_left_btn_color">#000000</color>
+    <color name="cf_actionbar_right_btn_color">#000000</color>
+    <color name="cf_actionbar_title_text_color">#000000</color>
+    <color name="dialog_btn_text_color">#ffffff</color>
+    <color name="gray">#828282</color>
+    <color name="new_msg_num_text_color">#ffffff</color>
+    <color name="notification_dialog_title_color">#dd368c</color>
+    <color name="personal_letter_tab_text_color_default">#3b3b3b</color>
+    <color name="personal_letter_tab_text_color_focused">#3b3b3b</color>
+    <color name="pull_listview_header_bg">#F3EFF1</color>
+    <color name="pull_listview_text_color">#A7A5A5</color>
+    <color name="tab_text_color_default">#333333</color>
+    <color name="tab_text_color_focused">#dd368c</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/F:/studio/06/ITLanBaoBaseLib/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="footer_height">90dp</dimen>
+    <dimen name="footer_padding">10dp</dimen>
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="img_h">300dp</dimen>
+    <dimen name="img_w">245dp</dimen>
+    <dimen name="insert_picture_dialog_tv_size">15sp</dimen>
+    <!-- From: file:/F:/studio/06/ITLanBaoBaseLib/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">ITLanBaoBaseLib</string>
+    <string name="footer_hint_load_failed">加载失败，点击重新加载</string>
+    <string name="footer_hint_load_normal">查看更多</string>
+    <string name="footer_hint_load_ready">松开载入更多</string>
+    <string name="header_hint_refresh_loading">加载中…</string>
+    <string name="header_hint_refresh_normal">下拉可以刷新</string>
+    <string name="header_hint_refresh_ready">释放可以刷新</string>
+    <string name="header_hint_refresh_time">更新于：</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading_text">正在加载...</string>
+    <string name="str_friday">周五</string>
+    <string name="str_hoursago">小时前</string>
+    <string name="str_loading_default_hint">正在加载数据…</string>
+    <string name="str_local_picture">本地图片上传</string>
+    <string name="str_minsago">分钟前</string>
+    <string name="str_minsago_str">刚刚来过</string>
+    <string name="str_monday">周一</string>
+    <string name="str_picture_head">上传头像才可以看到她的来信哦~</string>
+    <string name="str_saturday">周六</string>
+    <string name="str_secondago">秒前</string>
+    <string name="str_sunday">周日</string>
+    <string name="str_take_picture">拍照上传</string>
+    <string name="str_thursday">周四</string>
+    <string name="str_today">今天 </string>
+    <string name="str_tuesday">周二</string>
+    <string name="str_upload_photos">上传照片</string>
+    <string name="str_wednesday">周三</string>
+    <string name="str_yesterday">昨天 </string>
+    <!-- From: file:/F:/studio/06/ITLanBaoBaseLib/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

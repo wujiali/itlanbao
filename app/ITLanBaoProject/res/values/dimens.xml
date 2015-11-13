@@ -1,0 +1,57 @@
+<resources>
+
+    <dimen name="action_bar_height">40dp</dimen>
+    <dimen name="icon_num_text_size">10dip</dimen>
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="footer_height">90dp</dimen>
+    <dimen name="footer_padding">10dp</dimen>
+    <dimen name="tab_layout_default_height">45dip</dimen>
+    <dimen name="dialog_icon_width">49dip</dimen>
+    <dimen name="toast_y_offset">64dip</dimen>
+    <dimen name="tab_un_read_margin">27dp</dimen>
+    <dimen name="regist_age_picker_selector_title_high">40dip</dimen>
+  
+    <dimen name="action_bar_title">18sp</dimen>
+    <dimen name="image_preview_left_right_padding">10dip</dimen>
+    
+
+    
+    <!-- 上传头像弹窗 -->
+    <dimen name="upload_user_icon_whole_zoom">30dp</dimen>
+	<dimen name="upload_user_icon_title_size">16sp</dimen>
+	<dimen name="upload_user_icon_detail_size">14sp</dimen>
+	<dimen name="upload_user_icon_image_width">210dip</dimen>
+	<dimen name="upload_user_icon_image_height">262dip</dimen>
+	<dimen name="upload_user_icon_lable_size">10sp</dimen>
+	<dimen name="upload_user_icon_lable_man_top_left">140dip</dimen>
+	<dimen name="upload_user_icon_lable_man_top_top">5dip</dimen>
+	<dimen name="upload_user_icon_lable_man_right_left">124dip</dimen>
+	<dimen name="upload_user_icon_lable_man_right_top">70dip</dimen>
+	<dimen name="upload_user_icon_lable_man_left_left">18dip</dimen>
+	<dimen name="upload_user_icon_lable_man_left_top">95dip</dimen>
+	<dimen name="upload_user_icon_lable_man_bottom_left">123dip</dimen>
+	<dimen name="upload_user_icon_lable_man_bottom_top">120dip</dimen>
+	<dimen name="upload_user_icon_lable_woman_top_left">128dip</dimen>
+	<dimen name="upload_user_icon_lable_woman_top_top">6dip</dimen>
+	<dimen name="upload_user_icon_lable_woman_center_left">140dip</dimen>
+	<dimen name="upload_user_icon_lable_woman_center_top">47dip</dimen>
+	<dimen name="upload_user_icon_lable_woman_bottom_left">118dip</dimen>
+	<dimen name="upload_user_icon_lable_woman_bottom_top">160dip</dimen>
+	<dimen name="upload_user_icon_btn_size">14sp</dimen>
+	<dimen name="upload_user_icon_advantage_title_size">10sp</dimen>
+	<dimen name="upload_user_icon_advantage_list_size">12sp</dimen>
+	
+	
+	   <dimen name="indicator_marginleft">25dp</dimen>
+    <dimen name="indicator_marginbottom">5dp</dimen>
+    <dimen name="indicator_num_padding">2dp</dimen> 
+    <dimen name="indicator_no_number_marginleft">27.5dp</dimen>
+    <dimen name="indicator_no_number_marginbottom">10dp</dimen>
+    <dimen name="indicator_no_number_marginleft_2">18.5dp</dimen>
+    <dimen name="indicator_no_number_marginbottom_2">10dp</dimen>
+    <dimen name="indicator_no_number_width">5dp</dimen>
+    <dimen name="indicator_no_number_height">5dp</dimen>
+    <dimen name="setting_userinfo_text_size_4sp">7sp</dimen>
+    <dimen name="setting_userinfo_text_size_9sp">18dp</dimen>
+	
+</resources>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="volley_source">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ITLanBaoBaseLib/libs/volley_source.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

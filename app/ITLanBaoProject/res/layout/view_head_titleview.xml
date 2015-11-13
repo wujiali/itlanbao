@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:background="@drawable/tab_bg"
+    android:layout_height="@dimen/tab_layout_default_height" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT蓝豹图片社交项目"
+        android:layout_centerInParent="true" 
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" android:drawable="@drawable/uploadpicture_dialog_btn_up_press"></item>
+    <item android:drawable="@drawable/uploadpicture_dialog_btn_up_default"></item>
+</selector>
+<!-- From: file:/F:/studio/06/ITLanBaoBaseLib/res/drawable/upload_picture_dialog_btn_up_selector.xml --><!-- From: file:/F:/studio/06/ITLanBaoProject/build/intermediates/exploded-aar/06/ITLanBaoBaseLib/unspecified/res/drawable/upload_picture_dialog_btn_up_selector.xml -->

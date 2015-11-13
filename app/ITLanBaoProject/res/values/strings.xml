@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IT蓝豹</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- tab部分 -->
+    <string name="str_tab_info">资讯</string>
+    <string name="str_tab_project">项目</string>
+    <string name="str_tab_lanbao_cirle">蓝豹圈</string>
+    <string name="str_tab_search">搜索</string>
+
+</resources>
